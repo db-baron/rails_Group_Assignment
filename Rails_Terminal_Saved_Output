@@ -1,0 +1,1229 @@
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects$ 
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects$ rails new user_cars
+Expected string default value for '--rc'; got false (boolean)
+      create  
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/..
+Fetching dependency metadata from https://rubygems.org/.
+Resolving dependencies...
+Using rake 12.0.0
+Using i18n 0.8.1
+Using json 1.8.6
+Using minitest 5.10.1
+Using thread_safe 0.3.6
+Using builder 3.2.3
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 1.6.5
+Using mime-types-data 3.2016.0521
+Using arel 6.0.4
+Using debug_inspector 0.0.2
+Using bundler 1.14.6
+Using byebug 9.0.6
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using thor 0.19.4
+Using concurrent-ruby 1.0.5
+Using multi_json 1.12.1
+Using rdoc 4.3.0
+Using sass 3.4.23
+Using tilt 2.0.7
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.0
+Using tzinfo 1.2.3
+Using nokogiri 1.7.1
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.1.13
+Using sprockets 3.7.1
+Using sdoc 0.4.2
+Using turbolinks 5.0.1
+Using activesupport 4.2.7
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.7
+Using jbuilder 2.6.3
+Using spring 2.0.1
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.8
+Using activejob 4.2.7
+Using activerecord 4.2.7
+Using actionview 4.2.7
+Using actionpack 4.2.7
+Using actionmailer 4.2.7
+Using railties 4.2.7
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.1.1
+Using jquery-rails 4.3.1
+Using rails 4.2.7
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 12 Gemfile dependencies, 56 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+         run  bundle exec spring binstub --all
+* bin/rake: spring inserted
+* bin/rails: spring inserted
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects$ cd user_cars
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ ls
+app  bin  config  config.ru  db  Gemfile  Gemfile.lock  lib  log  public  Rakefile  README.rdoc  test  tmp  vendor
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ bundle install
+Resolving dependencies...
+Using rake 12.0.0
+Using i18n 0.8.1
+Using json 1.8.6
+Using minitest 5.10.1
+Using thread_safe 0.3.6
+Using builder 3.2.3
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 1.6.5
+Using mime-types-data 3.2016.0521
+Using arel 6.0.4
+Using debug_inspector 0.0.2
+Using bundler 1.14.6
+Using byebug 9.0.6
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using thor 0.19.4
+Using concurrent-ruby 1.0.5
+Using hirb 0.7.3
+Using multi_json 1.12.1
+Using rdoc 4.3.0
+Using sass 3.4.23
+Using tilt 2.0.7
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.0
+Using tzinfo 1.2.3
+Using nokogiri 1.7.1
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.1.13
+Using sprockets 3.7.1
+Using sdoc 0.4.2
+Using turbolinks 5.0.1
+Using activesupport 4.2.7
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.7
+Using jbuilder 2.6.3
+Using spring 2.0.1
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.8
+Using activejob 4.2.7
+Using activerecord 4.2.7
+Using actionview 4.2.7
+Using actionpack 4.2.7
+Using actionmailer 4.2.7
+Using railties 4.2.7
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.1.1
+Using jquery-rails 4.3.1
+Using rails 4.2.7
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 13 Gemfile dependencies, 57 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ rails g model User name:string, email:string age:string
+Running via Spring preloader in process 7854
+      invoke  active_record
+      create    db/migrate/20170406205618_create_users.rb
+      create    app/models/user.rb
+      invoke    test_unit
+      create      test/models/user_test.rb
+      create      test/fixtures/users.yml
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ model destroy User
+No command 'model' found, did you mean:
+ Command 'mdel' from package 'mtools' (main)
+ Command 'mode2' from package 'lirc' (universe)
+ Command 'mode3' from package 'svgalib-bin' (universe)
+model: command not found
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ rails destroy model User
+Running via Spring preloader in process 7866
+      invoke  active_record
+      remove    db/migrate/20170406205618_create_users.rb
+      remove    app/models/user.rb
+      invoke    test_unit
+      remove      test/models/user_test.rb
+      remove      test/fixtures/users.yml
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ 
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ 
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ rails g model User name:string email:string age:string
+Running via Spring preloader in process 7875
+      invoke  active_record
+      create    db/migrate/20170406205730_create_users.rb
+      create    app/models/user.rb
+      invoke    test_unit
+      create      test/models/user_test.rb
+      create      test/fixtures/users.yml
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ 
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ 
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ 
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ rake db:migrate
+== 20170406205730 CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0081s
+== 20170406205730 CreateUsers: migrated (0.0105s) =============================
+
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ User.all
+User.all: command not found
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ rails c
+Running via Spring preloader in process 7889
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > Hirb.enable
+ => true 
+2.3.1 :002 > User.all
+  User Load (7.7ms)  SELECT "users".* FROM "users"
+ => #<ActiveRecord::Relation []> 
+2.3.1 :003 > 
+2.3.1 :004 >   
+2.3.1 :005 >   
+2.3.1 :005 > 
+2.3.1 :006 >   reload!
+Reloading...
+ => true 
+2.3.1 :007 > 
+2.3.1 :008 >   Car.all
+  Car Load (2.0ms)  SELECT "cars".* FROM "cars"
+ => #<ActiveRecord::Relation []> 
+2.3.1 :009 > Hirb.enable
+ => true 
+2.3.1 :010 > 
+2.3.1 :011 >   
+2.3.1 :012 >   
+2.3.1 :013 >   user1 = user.new
+NameError: undefined local variable or method `user' for main:Object
+Did you mean?  user1
+	from (irb):13
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :014 > user1 = User.new
++----+------------+-----+------------+------------+------------+-----------+
+| id | user_email | age | created_at | updated_at | first_name | last_name |
++----+------------+-----+------------+------------+------------+-----------+
+|    |            |     |            |            |            |           |
++----+------------+-----+------------+------------+------------+-----------+
+1 row in set
+2.3.1 :015 > car1 = Car.new
++----+-------+---------+------------+------------+------+----------+
+| id | model | max_mph | created_at | updated_at | make | odometer |
++----+-------+---------+------------+------------+------+----------+
+|    |       |         |            |            |      | 0        |
++----+-------+---------+------------+------------+------+----------+
+1 row in set
+2.3.1 :016 > reload!
+Reloading...
+ => true 
+2.3.1 :017 > car1 = Car.new
++----+-------+---------+------------+------------+------+----------+
+| id | model | max_mph | created_at | updated_at | make | odometer |
++----+-------+---------+------------+------------+------+----------+
+|    |       |         |            |            |      | 0        |
++----+-------+---------+------------+------------+------+----------+
+1 row in set
+2.3.1 :018 > exit
+vagrant@vagrant-ubuntu-trusty-64:/vagrant/rails_projects/user_cars$ rails c
+Running via Spring preloader in process 8563
+Loading development environment (Rails 4.2.7)
+2.3.1 :001 > car1 = Car.new
+ => #<Car id: nil, model: nil, max_mph: nil, created_at: nil, updated_at: nil, make: nil, odometer: 0> 
+2.3.1 :002 > Hirb.enable
+ => true 
+2.3.1 :003 > user1 = User.new
++----+------------+-----+------------+------------+------------+-----------+
+| id | user_email | age | created_at | updated_at | first_name | last_name |
++----+------------+-----+------------+------------+------------+-----------+
+|    |            |     |            |            |            |           |
++----+------------+-----+------------+------------+------------+-----------+
+1 row in set
+2.3.1 :004 > car1 = Car.new
++----+-------+---------+------------+------------+------+----------+
+| id | model | max_mph | created_at | updated_at | make | odometer |
++----+-------+---------+------------+------------+------+----------+
+|    |       |         |            |            |      | 0        |
++----+-------+---------+------------+------------+------+----------+
+1 row in set
+2.3.1 :005 > user1 = User.new
++----+------------+-----+------------+------------+------------+-----------+
+| id | user_email | age | created_at | updated_at | first_name | last_name |
++----+------------+-----+------------+------------+------------+-----------+
+|    |            |     |            |            |            |           |
++----+------------+-----+------------+------------+------------+-----------+
+1 row in set
+2.3.1 :006 > user1.user_email = "dog@gmail.com"
+ => "dog@gmail.com" 
+2.3.1 :007 > User.all
+  User Load (3.1ms)  SELECT "users".* FROM "users"
+ => #<ActiveRecord::Relation []> 
+2.3.1 :008 > user1.save
+   (0.2ms)  begin transaction
+  SQL (4.8ms)  INSERT INTO "users" ("user_email", "created_at", "updated_at") VALUES (?, ?, ?)  [["user_email", "dog@gmail.com"], ["created_at", "2017-04-06 21:40:57.234918"], ["updated_at", "2017-04-06 21:40:57.234918"]]
+   (5.7ms)  commit transaction
+ => true 
+2.3.1 :009 > User.all
+  User Load (3.2ms)  SELECT "users".* FROM "users"
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+| id | user_email    | age | created_at              | updated_at              | first_name | last_name |
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+| 1  | dog@gmail.com |     | 2017-04-06 21:40:57 UTC | 2017-04-06 21:40:57 UTC |            |           |
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+1 row in set
+2.3.1 :010 > car1 = Car.new
++----+-------+---------+------------+------------+------+----------+
+| id | model | max_mph | created_at | updated_at | make | odometer |
++----+-------+---------+------------+------------+------+----------+
+|    |       |         |            |            |      | 0        |
++----+-------+---------+------------+------------+------+----------+
+1 row in set
+2.3.1 :011 > car1.model = "honda"
+ => "honda" 
+2.3.1 :012 > car1.save
+   (0.1ms)  begin transaction
+  SQL (4.3ms)  INSERT INTO "cars" ("model", "created_at", "updated_at") VALUES (?, ?, ?)  [["model", "honda"], ["created_at", "2017-04-06 21:41:40.840958"], ["updated_at", "2017-04-06 21:41:40.840958"]]
+   (4.4ms)  commit transaction
+ => true 
+2.3.1 :013 > Car.all
+  Car Load (2.8ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| 1  | honda |         | 2017-04-06 21:41:40 UTC | 2017-04-06 21:41:40 UTC |      | 0        |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+1 row in set
+2.3.1 :014 > car = car.find(1)
+NoMethodError: undefined method `find' for nil:NilClass
+	from (irb):14
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :015 > car = Car.find(1)
+  Car Load (2.0ms)  SELECT  "cars".* FROM "cars" WHERE "cars"."id" = ? LIMIT 1  [["id", 1]]
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| 1  | honda |         | 2017-04-06 21:41:40 UTC | 2017-04-06 21:41:40 UTC |      | 0        |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+1 row in set
+2.3.1 :016 > reload!
+Reloading...
+ => true 
+2.3.1 :017 > Car.all
+  Car Load (1.6ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| 1  | honda |         | 2017-04-06 21:41:40 UTC | 2017-04-06 21:41:40 UTC |      | 0        |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+1 row in set
+2.3.1 :018 > Car.all
+  Car Load (4.4ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+| 1  | honda |         | 2017-04-06 21:41:40 UTC | 2017-04-06 21:41:40 UTC |      | 0        |
++----+-------+---------+-------------------------+-------------------------+------+----------+
+1 row in set
+2.3.1 :019 > reload!
+Reloading...
+ => true 
+2.3.1 :020 > Car.all
+  Car Load (2.3ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| 1  | honda |         | 2017-04-06 21:41:40 UTC | 2017-04-06 21:41:40 UTC |      | 0        |         |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+1 row in set
+2.3.1 :021 > car1.max_mph = 400
+ => 400 
+2.3.1 :022 > car1.make = "Civic"
+ => "Civic" 
+2.3.1 :023 > car1.user_id = User.first.id
+  User Load (0.9ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `user_id=' for #<Car:0x000000046bcc28>
+Did you mean?  user=
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):23
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :024 > car1.user_id = user.first.id
+NameError: undefined local variable or method `user' for main:Object
+Did you mean?  user1
+	from (irb):24
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :025 > car1.user_id = user1.first.id
+NoMethodError: undefined method `first' for #<User:0x000000047b91f8>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):25
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :026 > car1.user^Cer1.first.id
+2.3.1 :026 > user1
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+| id | user_email    | age | created_at              | updated_at              | first_name | last_name |
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+| 1  | dog@gmail.com |     | 2017-04-06 21:40:57 UTC | 2017-04-06 21:40:57 UTC |            |           |
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+1 row in set
+2.3.1 :027 > car1.user_id = User.user1.first.id
+NoMethodError: undefined method `user1' for #<Class:0x000000029ab3a0>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activerecord-4.2.7/lib/active_record/dynamic_matchers.rb:26:in `method_missing'
+	from (irb):27
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :028 > car1.user_id = User.first.id
+  User Load (2.8ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `user_id=' for #<Car:0x000000046bcc28>
+Did you mean?  user=
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):28
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :029 > Car.all
+  Car Load (2.6ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| 1  | honda |         | 2017-04-06 21:41:40 UTC | 2017-04-06 21:41:40 UTC |      | 0        |         |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+1 row in set
+2.3.1 :030 > car1.save
+   (0.1ms)  begin transaction
+  SQL (8.2ms)  UPDATE "cars" SET "max_mph" = ?, "make" = ?, "updated_at" = ? WHERE "cars"."id" = ?  [["max_mph", "400"], ["make", "Civic"], ["updated_at", "2017-04-06 21:53:43.764768"], ["id", 1]]
+   (6.0ms)  commit transaction
+ => true 
+2.3.1 :031 > Car.all
+  Car Load (1.8ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make  | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:53:43 UTC | Civic | 0        |         |
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+1 row in set
+2.3.1 :032 > car1
++----+-------+---------+-------------------------+-------------------------+-------+----------+
+| id | model | max_mph | created_at              | updated_at              | make  | odometer |
++----+-------+---------+-------------------------+-------------------------+-------+----------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:53:43 UTC | Civic | 0        |
++----+-------+---------+-------------------------+-------------------------+-------+----------+
+1 row in set
+2.3.1 :033 > car = Car.find(1)
+  Car Load (2.6ms)  SELECT  "cars".* FROM "cars" WHERE "cars"."id" = ? LIMIT 1  [["id", 1]]
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make  | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:53:43 UTC | Civic | 0        |         |
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+1 row in set
+2.3.1 :034 > car.user_id = User.first.id
+  User Load (2.6ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+ => 1 
+2.3.1 :035 > car1
++----+-------+---------+-------------------------+-------------------------+-------+----------+
+| id | model | max_mph | created_at              | updated_at              | make  | odometer |
++----+-------+---------+-------------------------+-------------------------+-------+----------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:53:43 UTC | Civic | 0        |
++----+-------+---------+-------------------------+-------------------------+-------+----------+
+1 row in set
+2.3.1 :036 > car.save
+   (0.2ms)  begin transaction
+  SQL (7.1ms)  UPDATE "cars" SET "user_id" = ?, "updated_at" = ? WHERE "cars"."id" = ?  [["user_id", 1], ["updated_at", "2017-04-06 21:57:08.755030"], ["id", 1]]
+   (3.8ms)  commit transaction
+ => true 
+2.3.1 :037 > car
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make  | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:57:08 UTC | Civic | 0        | 1       |
++----+-------+---------+-------------------------+-------------------------+-------+----------+---------+
+1 row in set
+2.3.1 :038 > car2 = Car.create(model:"Lambo", make:"Diablo", odometer:1)
+   (0.1ms)  begin transaction
+  SQL (7.6ms)  INSERT INTO "cars" ("model", "make", "odometer", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["model", "Lambo"], ["make", "Diablo"], ["odometer", 1], ["created_at", "2017-04-06 21:58:49.666303"], ["updated_at", "2017-04-06 21:58:49.666303"]]
+   (4.5ms)  commit transaction
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make   | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| 2  | Lambo |         | 2017-04-06 21:58:49 UTC | 2017-04-06 21:58:49 UTC | Diablo | 1        |         |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+1 row in set
+2.3.1 :039 > Car.all
+  Car Load (2.6ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make   | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:57:08 UTC | Civic  | 0        | 1       |
+| 2  | Lambo |         | 2017-04-06 21:58:49 UTC | 2017-04-06 21:58:49 UTC | Diablo | 1        |         |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+2 rows in set
+2.3.1 :040 > car2 = Car.find(2)
+  Car Load (2.4ms)  SELECT  "cars".* FROM "cars" WHERE "cars"."id" = ? LIMIT 1  [["id", 2]]
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make   | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| 2  | Lambo |         | 2017-04-06 21:58:49 UTC | 2017-04-06 21:58:49 UTC | Diablo | 1        |         |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+1 row in set
+2.3.1 :041 > car2.user_id = User.first.id
+  User Load (2.2ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+ => 1 
+2.3.1 :042 > Car.all
+  Car Load (2.6ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make   | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:57:08 UTC | Civic  | 0        | 1       |
+| 2  | Lambo |         | 2017-04-06 21:58:49 UTC | 2017-04-06 21:58:49 UTC | Diablo | 1        |         |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+2 rows in set
+2.3.1 :043 > car2.save
+   (0.1ms)  begin transaction
+  SQL (9.8ms)  UPDATE "cars" SET "user_id" = ?, "updated_at" = ? WHERE "cars"."id" = ?  [["user_id", 1], ["updated_at", "2017-04-06 22:00:38.983969"], ["id", 2]]
+   (4.3ms)  commit transaction
+ => true 
+2.3.1 :044 > Car.all
+  Car Load (2.5ms)  SELECT "cars".* FROM "cars"
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make   | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+| 1  | honda | 400     | 2017-04-06 21:41:40 UTC | 2017-04-06 21:57:08 UTC | Civic  | 0        | 1       |
+| 2  | Lambo |         | 2017-04-06 21:58:49 UTC | 2017-04-06 22:00:38 UTC | Diablo | 1        | 1       |
++----+-------+---------+-------------------------+-------------------------+--------+----------+---------+
+2 rows in set
+2.3.1 :045 > User.first.Car.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
+  User Load (2.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `Car' for #<User:0x00000004f7ad38>
+Did you mean?  cars
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):45
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :046 > User.first.car3.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
+  User Load (2.9ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `car3' for #<User:0x00000004f12850>
+Did you mean?  cars
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):46
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :047 > User.first.cars.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
+  User Load (2.6ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (3.1ms)  INSERT INTO "cars" ("model", "max_mph", "make", "odometer", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["model", "Pinto"], ["max_mph", "35"], ["make", "junk"], ["odometer", 99999999], ["user_id", 1], ["created_at", "2017-04-06 22:03:21.741299"], ["updated_at", "2017-04-06 22:03:21.741299"]]
+   (4.4ms)  commit transaction
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| 3  | Pinto | 35      | 2017-04-06 22:03:21 UTC | 2017-04-06 22:03:21 UTC | junk | 99999999 | 1       |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+1 row in set
+2.3.1 :048 > User.all
+  User Load (2.0ms)  SELECT "users".* FROM "users"
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+| id | user_email    | age | created_at              | updated_at              | first_name | last_name |
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+| 1  | dog@gmail.com |     | 2017-04-06 21:40:57 UTC | 2017-04-06 21:40:57 UTC |            |           |
++----+---------------+-----+-------------------------+-------------------------+------------+-----------+
+1 row in set
+2.3.1 :049 > User.first.penis_substitute
+  User Load (2.1ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x00000004c669f8>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):49
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :050 > User.first.penis_substitute
+  User Load (3.4ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x00000004bfbd88>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):50
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :051 > User.first.penis_substitute
+  User Load (3.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x00000004b902e0>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):51
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :052 > User.first.penis_substitute
+  User Load (3.7ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x00000004b1eb40>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):52
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :053 > User.first.penis_substitute
+  User Load (2.3ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x00000004ab48f8>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):53
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :054 > User.first.penis_substitute
+  User Load (3.1ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x00000004a34888>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):54
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :055 > User.first.penis_substitute
+  User Load (2.7ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x000000049be9a8>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):55
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :056 > User.first.penis_substitute
+  User Load (3.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x0000000493b648>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):56
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :057 > User.first.penis_substitute
+  User Load (1.9ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `penis_substitute' for #<User:0x000000048c8ee0>
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):57
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :058 > User.second.car3.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
+  User Load (2.0ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1 OFFSET 1
+NoMethodError: undefined method `car3' for nil:NilClass
+	from (irb):58
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :059 > User.first.Car.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
+  User Load (1.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+NoMethodError: undefined method `Car' for #<User:0x000000047e1400>
+Did you mean?  cars
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activemodel-4.2.7/lib/active_model/attribute_methods.rb:433:in `method_missing'
+	from (irb):59
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :060 > User.first.cars.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
+  User Load (1.5ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (4.9ms)  INSERT INTO "cars" ("model", "max_mph", "make", "odometer", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["model", "Pinto"], ["max_mph", "35"], ["make", "junk"], ["odometer", 99999999], ["user_id", 1], ["created_at", "2017-04-06 22:18:40.983266"], ["updated_at", "2017-04-06 22:18:40.983266"]]
+   (3.9ms)  commit transaction
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| id | model | max_mph | created_at              | updated_at              | make | odometer | user_id |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+| 4  | Pinto | 35      | 2017-04-06 22:18:40 UTC | 2017-04-06 22:18:40 UTC | junk | 99999999 | 1       |
++----+-------+---------+-------------------------+-------------------------+------+----------+---------+
+1 row in set
+2.3.1 :061 > User.second.cars.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
+  User Load (1.8ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1 OFFSET 1
+NoMethodError: undefined method `cars' for nil:NilClass
+	from (irb):61
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:110:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/console.rb:9:in `start'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:274:in `require'
+	from /vagrant/rails_projects/user_cars/bin/rails:9:in `<top (required)>'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/dependencies.rb:268:in `load'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/commands/rails.rb:6:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:191:in `block in serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `fork'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:161:in `serve'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:131:in `block in run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `loop'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application.rb:125:in `run'
+	from /home/vagrant/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+2.3.1 :062 > user2 = User.new
++----+------------+-----+------------+------------+------------+-----------+
+| id | user_email | age | created_at | updated_at | first_name | last_name |
++----+------------+-----+------------+------------+------------+-----------+
+|    |            |     |            |            |            |           |
++----+------------+-----+------------+------------+------------+-----------+
+1 row in set
+2.3.1 :063 > user2.id = 2 
+ => 2 
+2.3.1 :064 > user2.user_email = "red@gmail.com"
+ => "red@gmail.com" 
+2.3.1 :065 > user2
++----+---------------+-----+------------+------------+------------+-----------+
+| id | user_email    | age | created_at | updated_at | first_name | last_name |
++----+---------------+-----+------------+------------+------------+-----------+
+| 2  | red@gmail.com |     |            |            |            |           |
++----+---------------+-----+------------+------------+------------+-----------+
+1 row in set
+2.3.1 :066 > User.second.cars.create(model:"Pinto", max_mph:35, make:"junk", odometer:99999999)
